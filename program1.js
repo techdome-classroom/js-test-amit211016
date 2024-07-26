@@ -1,3 +1,6 @@
+
+//this code is in java language
+
 void mark(int[][] grid, int row, int col){
   if(row<0 || row>grid.length-1 || col<0 || col>grid[row].length-1 || grid[row][col]!='L')
     return;
